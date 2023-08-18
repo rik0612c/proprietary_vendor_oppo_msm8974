@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter bacon find7 n3,$(TARGET_DEVICE)),)
+ifneq ($(filter bacon,$(TARGET_DEVICE)),)
 
 endif
